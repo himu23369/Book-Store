@@ -1,0 +1,21 @@
+-> In this, we are using Templating engines that replaces Placeholders/Snippets with HTML content. HTMLish Template ---> Templating Engine ---> HTML File
+
+-> EJS - templating engine
+Use normal HTML and plain Javascript in your templates 
+<p><%= name %></p>
+
+Pug(Jade)
+Use minimal HTML and custom template engine
+p #{name}
+
+Handlebars
+Use normal HTML and custom template language
+<p>{{ name }}</p>
+
+-> For installing these,
+npm install --save ejs pug express-Handlebars
+
+-> We render a method with special render method provided by express js.
+This render method will look for registered view engine.
+
+-> MVC stands for Model View Controller 
